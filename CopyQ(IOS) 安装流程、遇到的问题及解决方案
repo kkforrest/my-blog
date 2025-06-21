@@ -1,0 +1,24 @@
+desc: the record of installing CopyQ in Mac
+
+起因是发现 Mac没有像 Window系统一样自带的剪切板📋，只能看到最后一个剪切或复制的内容
+  
+然后安装的过程没那么顺利，所以有了此次的过程记录🧐
+
+## 简述
+CopyQ 是一款来自GitHub的免费剪贴板管理工具，具有编辑和脚本功能的高级剪贴板管理器。拥有简洁的界面和便捷的功能，非要说缺点的话就是图形化界面比较简单，配合快捷键使用会更方便。
+
+  
+## 初次安装【我失败了--如果首次安装就能成功当然是最好】
+官方安装路径如下
+```
+https://hluk.github.io/CopyQ/
+```
+详细的描述可阅读官方文档更详细。
+
+IOS系统 官方推荐使用 Homebrew 进行安装，因此需要优先安装好 Homebrew 才能继续后续的步骤（On OS X you can use Homebrew to install the app）
+
+安装命令（终端）：
+```
+brew install --cask copyq
+```
+安装结果：成功，但是！！打开应用提示 ** “CopyQ.app”已损坏，无法打开。 你应该将它移到废纸篓。 **
